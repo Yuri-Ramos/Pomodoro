@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #2980b9;
+}
+
+.timer-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.timer-container {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+#timer {
+    font-size: 2em;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.custom-time-section {
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+/* Adicione estas regras ao seu arquivo CSS */
+.thin-header {
+    padding: 5px 10px; /* Ajustando o espaçamento interno */
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20%;
+}
+
+.help-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.instructions-dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background-color: #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+    color: #fff;
+}
+
+.instructions-dropdown p {
+    margin: 5px 0;
+}
+/* Adicione estas regras ao seu arquivo CSS */
+.modern-footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
